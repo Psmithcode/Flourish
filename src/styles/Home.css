@@ -1,0 +1,29 @@
+.home-title {
+  font-size: 46px;
+  font-family: "Major Mono Display", monospace;
+  color: var(--tan);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.home-sub-title {
+  font-size: 20px;
+  font-family: "Cutive Mono", monospace;
+  color: var(--tan);
+}
+
+.home-shop-button {
+  text-decoration: none;
+  font-family: "Major Mono Display", monospace;
+  color: var(--tan);
+  background-color: var(--darkGreen);
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

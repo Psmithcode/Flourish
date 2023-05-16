@@ -1,0 +1,119 @@
+/* font-family: 'Cutive Mono', monospace;
+font-family: 'Major Mono Display', monospace; */
+
+.navBar-container {
+  width: 100%;
+  min-height: 60px;
+  background-color: var(--lightGreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.navBar {
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--tan);
+  display: flex;
+  margin: 0px 5px 0 5px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.navBar-nav-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navBar-title {
+  margin-left: 15px;
+  width: auto;
+  padding: 5px;
+  background-color: var(--darkGreen);
+  max-height: 90%;
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Major Mono Display", monospace;
+}
+
+.navBar-link-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.navBar-link-list > li:first-of-type {
+  margin-left: 15px;
+}
+
+.navBar-link {
+  font-family: "Cutive Mono", monospace;
+  color: var(--darkGreen);
+}
+
+.navBar-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  margin-right: 10px;
+  color: var(--darkGreen);
+}
+
+.shopping-cart-title {
+  background-color: var(--tan);
+  border-radius: 5px;
+  color: var(--darkGreen);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: "Major Mono Display", monospace;
+  font-size: 28px;
+}
+
+.cart-products-list {
+  gap: 10px;
+}
+
+.cart-noItems {
+  width: 100%;
+  background-color: var(--tan);
+  margin: 20px 0 20px 0;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Cutive Mono", monospace;
+  color: var(--darkGreen);
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cost-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light);
+  font-family: "Cutive Mono", monospace;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.checkout-button {
+  background-color: var(--darkGreen);
+  border: unset;
+  border-radius: 5px;
+  color: white;
+  font-family: "Cutive Mono", monospace;
+  margin-right: 5px;
+  font-size: 20px;
+}

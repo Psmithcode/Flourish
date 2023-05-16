@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.about-text-container {
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Cutive Mono", monospace;
+  color: var(--darkGreen);
+  text-indent: 20px;
+}
+
+.about-text-container > p{
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 500px) {
+    .about-text-container{
+        font-size: 15px;
+    }
+}

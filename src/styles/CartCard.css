@@ -1,0 +1,32 @@
+.cartCard-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light);
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cartCard-title {
+  width: 100px;
+  font-family: "Cutive Mono", monospace;
+}
+
+.cartCard-quantity {
+  font-family: "Cutive Mono", monospace;
+}
+
+.cartCard-price {
+  font-family: "Cutive Mono", monospace;
+}
+
+.cartCard-delete {
+  background-color: transparent;
+  border: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
